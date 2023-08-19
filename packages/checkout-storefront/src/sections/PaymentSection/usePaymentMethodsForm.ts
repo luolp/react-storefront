@@ -62,7 +62,7 @@ export const usePaymentMethodsForm = () => {
     }
 
     if (allPaymentOptions && !availablePaymentMethods.length) {
-      throw new Error("No available payment providers");
+      throw new Error("No available payment providers" + JSON.stringify(allPaymentOptions) + JSON.stringify(availablePaymentMethods));
     } else if (!selectedMethodId && firstAvailableMethod) {
       void setFieldValue("selectedMethodId", firstAvailableMethod);
     }
