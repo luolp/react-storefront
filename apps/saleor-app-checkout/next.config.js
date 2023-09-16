@@ -10,7 +10,7 @@ const checkoutEmbededInStorefrontPath = "/saleor-app-checkout";
 
 /** @type {import('next').NextConfig} */
 const config = withTM({
-  trailingSlash: false,
+  trailingSlash: true,
   i18n: {
     locales: ["en-US", "pl-PL", "fr-FR", "vi-VN", "ar-AE"],
     defaultLocale: "en-US",
