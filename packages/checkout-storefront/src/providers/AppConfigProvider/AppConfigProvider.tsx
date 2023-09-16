@@ -22,7 +22,8 @@ export const AppConfigProvider: React.FC<PropsWithChildren<{ env: AppEnv }>> = (
   children,
   env,
 }) => {
-  const { saleorApiUrl } = getQueryParams();
+    // const { saleorApiUrl } = getQueryParams();
+    const  saleorApiUrl = "https://data.eminstore.com/graphql/";
   const [{ data: storedAppConfig, loading }] = useFetch(getAppConfig, {
     args: { checkoutApiUrl: env.checkoutApiUrl, saleorApiUrl },
   });
