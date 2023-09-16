@@ -21,7 +21,8 @@ export interface RootProps {
 }
 
 export const Root = ({ env }: RootProps) => {
-  const { saleorApiUrl } = getQueryParams();
+  // const { saleorApiUrl } = getQueryParams();
+  const  saleorApiUrl = "https://data.eminstore.com/graphql/";
   const { locale, messages } = useLocale();
   const useSaleorAuthClientProps = useSaleorAuthClient({
     saleorApiUrl,
