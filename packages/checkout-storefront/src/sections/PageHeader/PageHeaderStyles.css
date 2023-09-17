@@ -6,7 +6,7 @@
   }
 
   .logo {
-    @apply h-12;
+    height: 5.2rem;
   }
 
   .language-select-container {
