@@ -6,7 +6,7 @@
   }
 
   .logo {
-    @apply h-10;
+    @apply h-12;
   }
 
   .language-select-container {
