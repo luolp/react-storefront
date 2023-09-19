@@ -4,7 +4,7 @@ import Link from "next/link";
 export const PageHeader = () => {
   return (
     <div className="page-header">
-      <Link href="/">
+      <Link href="https://www.eminstore.com/">
         <img src="/eminstore_logo.png" alt="logo" className="logo" />
       </Link>
       <LanguageSelect />
