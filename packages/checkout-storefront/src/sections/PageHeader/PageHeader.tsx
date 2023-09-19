@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { LanguageSelect } from "@/checkout-storefront/sections/PageHeader/LanguageSelect";
+import Link from "next/link";
 
 export const PageHeader = () => {
   return (
